@@ -38,5 +38,4 @@ venv/
 node_modules/
 .DS_Store
 python/
-python-3.12.0rc3-embed-amd64/
 $null
