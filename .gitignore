@@ -1,0 +1,42 @@
+# 公众号写作助手 .gitignore
+# 防止敏感文件被上传
+
+# 核心配置文件 (Sensitive Settings)
+# 注意：不要提交实际配置文件，只提交模板
+config/setting.txt
+setting.txt
+.env
+.env.local
+.env.*.local
+.claude/
+
+# 数据库 (Database)
+# 注意：不要提交实际数据库，只提交模板
+content_wizard.db
+
+# 调试与中间文件 (Debug and Intermediate Files)
+debug_article.html
+debug_article.md
+debug_digest.txt
+last_run.txt
+temp_requirements.txt
+query_db.py
+test_summary_fix.py
+
+# 图片资源与上传 (Images)
+image/*.png
+uploads/*.png
+!image/.gitkeep
+!uploads/.gitkeep
+
+# Python 相关 (Python environment)
+__pycache__/
+*.pyc
+.venv/
+env/
+venv/
+node_modules/
+.DS_Store
+python/
+python-3.12.0rc3-embed-amd64/
+$null

@@ -1,0 +1,27 @@
+# ================================================
+# 公众号写作助手 配置文件模板
+# ================================================
+# 请复制此文件为 setting.txt 并填入您的配置
+
+# ======== 微信公众平台 ========
+# 在微信开发者平台 https://developers.weixin.qq.com/ 获取
+WECHAT_APP_ID=your_app_id_here
+WECHAT_APP_SECRET=your_app_secret_here
+
+# ======== CherryStudio API ========
+# 在 CherryStudio 设置中获取 API Key
+CHERRY_API_BASE_URL=https://open.cherryin.ai/v1
+CHERRY_API_KEY=your_api_key_here
+
+# ======== 模型配置 ========
+# 写作模型 (推荐: claude-opus-4.5 或 claude-sonnet-4.5)
+WRITER_MODEL=anthropic/claude-opus-4.5
+
+# 排版模型 (用于HTML生成和摘要)
+LAYOUT_MODEL=google/gemini-3-flash-preview
+
+# 图片生成模型
+IMAGE_GEN_MODEL=qwen/qwen-image(free)
+
+# 图片生成 API 地址（可选，默认使用下面的地址）
+IMAGE_GEN_BASE_URL=https://open.cherryin.ai/v1/images/generations
